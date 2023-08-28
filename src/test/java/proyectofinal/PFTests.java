@@ -71,7 +71,7 @@ public class PFTests {
 
     String firstname = "Hector";
     String lastname = "Cruz";
-    String email = "a" + (int) Math.floor(Math.random() * 9999) + "@a.com";
+    String email = "a" + (int) Math.floor(Math.random() * 9999) + "@b.com";
 
     createPage.createAccount(firstname, lastname, email, "P@ssw0rd", "P@ssw0rd");
     logger.log(LogStatus.INFO, "Create Account");
